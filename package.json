@@ -1,0 +1,38 @@
+{
+  "name": "@rajatporwal/react-component-library",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/rajatporwal"
+  },
+  "version": "1.0.0",
+  "description": "Component library React",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatporwal/react-component-library.git"
+  },
+  "author": "Rajat Porwal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajatporwal/react-component-library/issues"
+  },
+  "homepage": "https://github.com/rajatporwal/react-component-library#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.15",
+    "react": "^18.2.0",
+    "rollup": "^2.77.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
