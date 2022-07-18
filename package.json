@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/rajatporwal"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component library React",
   "scripts": {
     "rollup": "rollup -c"
@@ -26,6 +26,7 @@
     "react": "^18.2.0",
     "rollup": "^2.77.0",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },

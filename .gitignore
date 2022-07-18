@@ -6,3 +6,4 @@
 /.env
 /storybook-static
 /yarn-error.log
+/.npmrc

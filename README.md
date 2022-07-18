@@ -1,3 +1,6 @@
 # react-component-library
 
-Publish packages - npm publish
+Publish packages
+
+`npm run rollup`
+`npm publish`
