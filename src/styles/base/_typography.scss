@@ -1,0 +1,54 @@
+// @mixin textFormatter($family, $size, $weight, $spacing, $style, $color: $color-black) {
+
+.heading-1-primary {
+  @include textFormatter($font-primary, 4.5rem, 400, normal);
+}
+
+.heading-1 {
+  @include textFormatter($font-display, 4.5rem, 400, normal);
+}
+
+.heading-2-primary {
+  @include textFormatter($font-primary, 4rem, 400, normal);
+}
+
+.heading-2 {
+    @include textFormatter($font-display, 4rem, 400, normal);
+}
+
+.heading-2-italic {
+  @include textFormatter($font-display, 4rem, 400, italic);
+}
+
+.heading-3-primary {
+@include textFormatter($font-primary, 1.9rem, 400, normal);
+}
+
+.heading-3 {
+@include textFormatter($font-display, 1.9rem, 400, normal);
+}
+
+.heading-4-primary {
+  @include textFormatter($font-primary, 1.6rem, 400, normal);
+}
+
+.heading-4 {
+  @include textFormatter($font-display, 1.6rem, 400, normal);
+}
+
+.heading-4-italic {
+  @include textFormatter($font-display, 1.6rem, 400, italic);
+}
+
+.para-primary {
+    @include textFormatter($font-primary, 1.5rem, 400, normal);
+}
+
+.para {
+    @include textFormatter($font-display, 1.5rem, 200, normal);
+}
+
+// PADDING
+.pad-xl {
+    padding: $space-xl;
+}
