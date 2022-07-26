@@ -1,0 +1,58 @@
+.loader-circle {
+  // position:absolute;
+  // top:50%;
+  // left:50%;
+  margin: 50px;
+  transform: translate(-50%, -50%);
+  /*change these sizes to fit into your project*/
+  width: 100px;
+  height: 100px;
+
+  span {
+    border: 0;
+    margin: 0;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 50%;
+    animation: spin-loader-circle 2s ease infinite;
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  :first-child {
+    background: #216ad6;
+    animation-delay: -1.5s;
+  }
+
+  :nth-child(2) {
+    background: #ffd960;
+    animation-delay: -1s;
+  }
+
+  :nth-child(3) {
+    background: #d7415d;
+    animation-delay: -0.5s;
+  }
+
+  :last-child {
+    background: #1f95f2;
+  }
+}
+
+@keyframes spin-loader-circle {
+  0% {
+    transform: translate(0) scale(0);
+  }
+  25% {
+    transform: translate(200%) scale(1.5);
+  }
+  50% {
+    transform: translate(200%, 200%) scale(0);
+  }
+  75% {
+    transform: translate(0, 200%) scale(1.5);
+  }
+  100% {
+    transform: translate(0) scale(0);
+  }
+}

@@ -1,0 +1,25 @@
+.loader-text {
+  &__text {
+    @include textFormatter($font-display, 1.6rem, 400, italic);
+  }
+
+  & > :after {
+    content: "Loading";
+    animation: loading-text 3s infinite;
+  }
+}
+
+@keyframes loading-text {
+  0% {
+    content: "Loading";
+  }
+  25% {
+    content: "Loading.";
+  }
+  50% {
+    content: "Loading..";
+  }
+  75% {
+    content: "Loading...";
+  }
+}

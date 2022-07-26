@@ -5,7 +5,7 @@
 @import "../styles/base/typography";
 
 @import "../components/typing-effect/typewriter-animation/typewriter-animation.scss";
-// @import "../components/storybook/loaders/loader-circle/index.scss";
-// @import "../components/storybook/loaders/loader-circle-horizontal/index.scss";
-// @import "../components/storybook/loaders/loader-text/index.scss";
-// @import "../components/storybook/loaders/spinner-loader/index.scss";
+@import "../components/loaders/loader-circle/loader-circle.scss";
+@import "../components/loaders/loader-circle-horizontal/loader-circle-horizontal.scss";
+@import "../components/loaders/loader-text/loader-text.scss";
+@import "../components/loaders/spinner-loader/spinner-loader.scss";
