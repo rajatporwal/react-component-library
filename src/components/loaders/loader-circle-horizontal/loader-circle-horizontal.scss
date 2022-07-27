@@ -1,11 +1,4 @@
 .loader-circle-horizontal {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-
   &__circle {
     animation: loader-circle-horizontal 3s ease-in-out infinite;
     height: 50px;
