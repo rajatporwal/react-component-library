@@ -8,13 +8,16 @@
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rajatporwal/react-component-library.git"
   },
-  "author": "Rajat Porwal",
+  "author": {
+    "name": "Rajat Porwal"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rajatporwal/react-component-library/issues"
@@ -36,6 +39,7 @@
     "@storybook/testing-library": "0.0.13",
     "@types/react": "^18.0.15",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.7.1",
     "css-loader": "^6.7.1",
     "postcss": "^8.4.14",
     "react": "^18.2.0",
@@ -74,5 +78,7 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "dependencies": {}
+  "dependencies": {},
+  "readme": "ERROR: No README data found!",
+  "_id": "@rajatporwal/react-component-library@1.0.9"
 }
