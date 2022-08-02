@@ -10,3 +10,6 @@ export { default as LoaderText } from './loaders/loader-text';
 export { default as SpinnerLoader } from './loaders/spinner-loader';
 
 export { default as CardOnHover } from './Cards/card-on-hover/card-on-hover';
+
+export { default as Accordion } from './Accordion/Accordion';
+

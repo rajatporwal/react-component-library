@@ -1,0 +1,18 @@
+.accordion {
+  width: 100%;
+  details {
+    border: 1px solid #d9d9d9;
+    summary {
+      background-color: #d9d9d9;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    // summary::marker {
+    //     padding-right: 20px;
+    // };
+  }
+  &__content {
+    padding: 20px;
+  }
+}

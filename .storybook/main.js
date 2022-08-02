@@ -7,7 +7,16 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    "@storybook/preset-scss"
+    "@storybook/preset-scss",
+    "@storybook/addon-storysource",
+    {
+      name: '@storybook/addon-docs',
+      options: {
+        sourceLoaderOptions: {
+          injectStoryParameters: false,
+        },
+      },
+    },
   ],
   "framework": "@storybook/react",
   "core": {

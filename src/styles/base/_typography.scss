@@ -40,6 +40,10 @@
   @include textFormatter($font-display, 1.6rem, 400, italic);
 }
 
+.heading-5 {
+  @include textFormatter($font-primary, 1.2rem, 400, normal);
+}
+
 .para-primary {
     @include textFormatter($font-primary, 1.5rem, 400, normal);
 }
@@ -51,4 +55,8 @@
 // PADDING
 .pad-xl {
     padding: $space-xl;
+}
+
+.pad-l-s {
+  padding-left: $space-s;
 }
