@@ -11,5 +11,5 @@ export { default as SpinnerLoader } from './loaders/spinner-loader';
 
 export { default as CardOnHover } from './Cards/card-on-hover/card-on-hover';
 
-export { default as Accordion } from './Accordion/Accordion';
+export { default as Accordion } from './Accordion';
 
