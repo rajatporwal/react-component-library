@@ -40,8 +40,8 @@
   @include textFormatter($font-display, 1.6rem, 400, italic);
 }
 
-.heading-5 {
-  @include textFormatter($font-primary, 1.2rem, 400, normal);
+.heading-5-inherit {
+  @include textFormatter($font-inherit, 1.4rem, 400, normal);
 }
 
 .para-primary {

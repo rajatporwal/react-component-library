@@ -10,7 +10,7 @@ const Accordion = (props: AccordionProps) => {
     <div className="accordion">
         <details>
           <summary>
-            <span className="heading-5 pad-l-s">{props.title}</span>
+            <span className="heading-5-inherit pad-l-s">{props.title}</span>
           </summary>
           <div className="accordion__content">{props.content}</div>
         </details>
